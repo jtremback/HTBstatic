@@ -1,0 +1,148 @@
+@import "compass/css3";
+@import "compass/css3/images";
+@import "compass/utilities/color";
+
+@import "reset";
+@import "base";
+@import "common";
+
+body {
+  background: url("../images/noise_1.png");
+}
+
+#stream {
+  padding-top: 6em;
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, .5);
+  .tile {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
+    .domain {
+      text-align: right;
+      margin-bottom: .5em;
+      img{
+        float: right;
+      }
+    }
+    .page {
+      display: block;
+      margin-bottom: 1em;
+      a {
+        font-weight: bold;
+      }
+    }
+    .domain {
+      float: right;
+
+      .favicon {
+        margin-left: .5em;
+      }
+    }
+    .sidepanel {
+      width: 200px;
+      height: 200px;
+      float: left;
+      margin-right: 1em;
+
+      .control {
+        display: block;
+        text-align: right;
+        float: right;
+        clear: both;
+        margin-bottom: .7em;
+        font-size: 1.5em;
+        opacity: .5;
+        &:hover {
+          opacity: .8;
+        }
+        .innertext {
+          float: right;
+        }
+        .fave {
+          @include linkbutton_right;
+          padding-right: 1.5em;
+          background-image: url("../images/fave_2.png"); 
+        }
+        .goto {
+          @include linkbutton_right;
+          padding-right: 1.5em;
+          background-image: url("../images/goto_1.png"); 
+        }
+        .flag {
+          @include linkbutton_right;
+          padding-right: 1.5em;
+          background-image: url("../images/flag_4.png"); 
+        }
+      }
+
+      .avablock {
+        float: right;
+        margin-bottom: .5em;
+        img {
+          border-radius: .25em;
+          float: right;
+          width: 60px;
+          height: 60px;
+          // background-image: url("../images/avatar_1.jpg");
+        }
+      }
+      .metadata {
+        font-size: 1.3em;
+        text-align: right;
+        margin-bottom: 1em;
+      }
+    }
+
+    .hyp-paper {
+      width: 580px;
+      float: left;
+    }
+
+    .favicon {
+      width: 16px;
+      margin-right: .5em;
+    }
+
+    .hyp-annotation {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.hyp-excerpt {
+  blockquote {
+    margin-bottom: 1em;
+  }
+}
+
+.navtainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background: white;
+  border-bottom: 1px solid $gray-lighter;
+  text-align: center;
+  .navinner {
+    height: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    .titletext {
+      font-size: 2.5em;
+      float: left;
+    }
+    .a-dropdown {
+      float: right;
+    }
+    .streamnav {
+
+    }
+  }
+}
