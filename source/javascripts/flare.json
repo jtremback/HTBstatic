@@ -1,11 +1,11 @@
 {
- "name": "flare",
+ "name": "",
  "children": [
   {
-   "name": "analytics",
+   "name": "",
    "children": [
     {
-     "name": "cluster",
+     "name": "",
      "children": [
       {"name": "AgglomerativeCluster", "size": 3938},
       {"name": "CommunityStructure", "size": 3812},
@@ -14,7 +14,7 @@
      ]
     },
     {
-     "name": "graph",
+     "name": "",
      "children": [
       {"name": "BetweennessCentrality", "size": 3534},
       {"name": "LinkDistance", "size": 5731},
@@ -32,12 +32,12 @@
    ]
   },
   {
-   "name": "animate",
+   "name": "Fire Dept.",
    "children": [
     {"name": "Easing", "size": 17010},
     {"name": "FunctionSequence", "size": 5842},
     {
-     "name": "interpolate",
+     "name": "",
      "children": [
       {"name": "ArrayInterpolator", "size": 1983},
       {"name": "ColorInterpolator", "size": 2047},
@@ -62,10 +62,10 @@
    ]
   },
   {
-   "name": "data",
+   "name": "Public Works",
    "children": [
     {
-     "name": "converters",
+     "name": "",
      "children": [
       {"name": "Converters", "size": 721},
       {"name": "DelimitedTextConverter", "size": 4294},
@@ -83,7 +83,7 @@
    ]
   },
   {
-   "name": "display",
+   "name": "Human Services",
    "children": [
     {"name": "DirtySprite", "size": 8833},
     {"name": "LineSprite", "size": 1732},
@@ -98,7 +98,7 @@
    ]
   },
   {
-   "name": "physics",
+   "name": "Finance and Mgmt.",
    "children": [
     {"name": "DragForce", "size": 1082},
     {"name": "GravityForce", "size": 1336},
@@ -111,7 +111,7 @@
    ]
   },
   {
-   "name": "query",
+   "name": "Economic Development",
    "children": [
     {"name": "AggregateExpression", "size": 1616},
     {"name": "And", "size": 1027},
@@ -181,22 +181,19 @@
    ]
   },
   {
-   "name": "scale",
+   "name": "Capital Improvement",
    "children": [
-    {"name": "IScaleMap", "size": 2105},
-    {"name": "LinearScale", "size": 1316},
-    {"name": "LogScale", "size": 3151},
-    {"name": "OrdinalScale", "size": 3770},
-    {"name": "QuantileScale", "size": 2435},
-    {"name": "QuantitativeScale", "size": 4839},
-    {"name": "RootScale", "size": 1756},
-    {"name": "Scale", "size": 4268},
-    {"name": "ScaleType", "size": 1821},
-    {"name": "TimeScale", "size": 5833}
+    {"name": "Buildings and Facilities", "size": 2105},
+    {"name": "Parks", "size": 1316},
+    {"name": "Sewers", "size": 3151},
+    {"name": "Streets and Sidewalks", "size": 3770},
+    {"name": "Technology", "size": 2435},
+    {"name": "Traffic", "size": 4839},
+    {"name": "Miscellaneous", "size": 4268}
    ]
   },
   {
-   "name": "util",
+   "name": "Police Services",
    "children": [
     {"name": "Arrays", "size": 8258},
     {"name": "Colors", "size": 10001},
@@ -241,54 +238,16 @@
    ]
   },
   {
-   "name": "vis",
+   "name": "Port and Non-Departmental",
    "children": [
     {
-     "name": "axis",
+     "name": "",
      "children": [
       {"name": "Axes", "size": 1302},
       {"name": "Axis", "size": 24593},
       {"name": "AxisGridLine", "size": 652},
       {"name": "AxisLabel", "size": 636},
       {"name": "CartesianAxes", "size": 6703}
-     ]
-    },
-    {
-     "name": "controls",
-     "children": [
-      {"name": "AnchorControl", "size": 2138},
-      {"name": "ClickControl", "size": 3824},
-      {"name": "Control", "size": 1353},
-      {"name": "ControlList", "size": 4665},
-      {"name": "DragControl", "size": 2649},
-      {"name": "ExpandControl", "size": 2832},
-      {"name": "HoverControl", "size": 4896},
-      {"name": "IControl", "size": 763},
-      {"name": "PanZoomControl", "size": 5222},
-      {"name": "SelectionControl", "size": 7862},
-      {"name": "TooltipControl", "size": 8435}
-     ]
-    },
-    {
-     "name": "data",
-     "children": [
-      {"name": "Data", "size": 20544},
-      {"name": "DataList", "size": 19788},
-      {"name": "DataSprite", "size": 10349},
-      {"name": "EdgeSprite", "size": 3301},
-      {"name": "NodeSprite", "size": 19382},
-      {
-       "name": "render",
-       "children": [
-        {"name": "ArrowType", "size": 698},
-        {"name": "EdgeRenderer", "size": 5569},
-        {"name": "IRenderer", "size": 353},
-        {"name": "ShapeRenderer", "size": 2247}
-       ]
-      },
-      {"name": "ScaleBinding", "size": 11275},
-      {"name": "Tree", "size": 7147},
-      {"name": "TreeBuilder", "size": 9930}
      ]
     },
     {
@@ -301,7 +260,7 @@
      ]
     },
     {
-     "name": "legend",
+     "name": "",
      "children": [
       {"name": "Legend", "size": 20859},
       {"name": "LegendItem", "size": 4614},
@@ -309,7 +268,7 @@
      ]
     },
     {
-     "name": "operator",
+     "name": "",
      "children": [
       {
        "name": "distortion",
@@ -347,7 +306,7 @@
        ]
       },
       {
-       "name": "layout",
+       "name": "",
        "children": [
         {"name": "AxisLayout", "size": 6725},
         {"name": "BundledEdgeRouter", "size": 3727},
