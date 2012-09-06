@@ -30,7 +30,10 @@ window.onload = function() {
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; })
         .attr("r", function(d) { return d.r; })
-        .on("click", function(d) { return zoom(node == d ? root : d); });
+        .on("click", function(d) { 
+          alert(d.name);
+          return zoom(node == d ? root : d); 
+        });
 
     vis.selectAll("text")
         .data(nodes)
