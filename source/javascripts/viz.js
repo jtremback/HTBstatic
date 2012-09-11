@@ -31,7 +31,8 @@ window.onload = function() {
         .attr("cy", function(d) { return d.y; })
         .attr("r", function(d) { return d.r; })
         .on("click", function(d) { 
-          alert(d.name);
+          // alert((d.name).replace(/\W/g,''));
+          switcher((d.name).replace(/\W/g,''));
           return zoom(node == d ? root : d); 
         });
 
@@ -48,6 +49,13 @@ window.onload = function() {
 
     d3.select(window).on("click", function() { zoom(root); });
   });
+
+  function switcher(n) {
+    $('#' + n).show();
+    $("#blurbs div").not('#' + n).hide();
+  }
+
+
 
   function zoom(d, i) {
     var k = r / d.r / 2;
