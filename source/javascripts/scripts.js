@@ -1,19 +1,14 @@
 //TOOLTIPS
 $(document).ready(function() {
-  $(".mayor").hide();
-  $(".democlickzone").click(function() {
-  	alert("stoops");
-    $(".mayor").show();
-    $(".city").hide();
-
+  alert("ready");
+  $("#easyXDM_annotator_provider").click(function(){
+    alert("clicked");
+    // if ($(this).hasClass("annotator-collapsed")) {
+    //   $(".blurbs").addClass("out");
+    //   alert("addClass");
+    // } else {
+    //   $(".blurbs").removeClass("out");
+    //   alert("removeClass");
+    // }
   });
-
-
-//  $(".tipper").mouseleave(function() {
-//    var person = "." + $(this).attr("id");
-//    $(this).parents(".accordion").find(person).addClass("collapsed");
-//  });
-//  $(".tip").mouseenter(function() {
-//    $(this).removeClass("collapsed");
-//  });
 });

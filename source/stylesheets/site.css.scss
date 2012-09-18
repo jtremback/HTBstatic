@@ -50,10 +50,13 @@ small, aside {
 .blurbs {
   position: absolute;
   width: 350px;
-  right: 420px;
+  right: 30px;
   padding: 0 10px;
   top: 0;
-  background: rgba(255, 255, 255, .7);
+  background: rgba(255, 255, 255, 1);
+  &.out {
+    right: 450px;
+  }
 }
 
 .invert {
