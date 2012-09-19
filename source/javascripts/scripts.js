@@ -1,19 +1,16 @@
 //TOOLTIPS
 $(document).ready(function() {
-  alert("ready");
 
   outCheck = function() {
     console.log("outCheck");
     if ($("#easyXDM_annotator_provider").hasClass("annotator-collapsed")) {
-      $(".blurbs").removeClass("out");
-      console.log("addClass");
+      $(".blurbs").addClass("in");
     } else {
-      $(".blurbs").removeClass("out");
-      console.log("removeClass");
+      $(".blurbs").removeClass("in");
     }
   }
 
-  setInterval(outCheck, 1000);
+  setInterval(outCheck, 100);
 
 });
 
