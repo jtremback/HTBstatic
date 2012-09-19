@@ -1,14 +1,20 @@
 //TOOLTIPS
 $(document).ready(function() {
   alert("ready");
-  $("#easyXDM_annotator_provider").click(function(){
-    alert("clicked");
-    // if ($(this).hasClass("annotator-collapsed")) {
-    //   $(".blurbs").addClass("out");
-    //   alert("addClass");
-    // } else {
-    //   $(".blurbs").removeClass("out");
-    //   alert("removeClass");
-    // }
-  });
+
+  outCheck = function() {
+    console.log("outCheck");
+    if ($("#easyXDM_annotator_provider").hasClass("annotator-collapsed")) {
+      $(".blurbs").removeClass("out");
+      console.log("addClass");
+    } else {
+      $(".blurbs").removeClass("out");
+      console.log("removeClass");
+    }
+  }
+
+  setInterval(outCheck, 1000);
+
 });
+
+
