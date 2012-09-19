@@ -33,7 +33,8 @@ window.onload = function() {
         .on("click", function(d) { 
           // alert((d.name).replace(/\W/g,''));
           switcher((d.name).replace(/\W/g,''));
-          return zoom(node == d ? root : d); 
+          window.Annotator._instance.consumer.update();
+          return zoom(node == d ? root : d);
         });
 
     vis.selectAll("text")
