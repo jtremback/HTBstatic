@@ -48,7 +48,7 @@ window.onload = function() {
         .style("opacity", function(d) { return d.r > 20 ? 1 : 0; })
         .text(function(d) { return d.name; });
 
-    d3.select(window).on("click", function() { zoom(root); });
+    // d3.select(window).on("click", function() { zoom(root); });
   });
 
   function switcher(n) {

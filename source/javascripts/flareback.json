@@ -1,5 +1,5 @@
 {
-  "name": "City Budget",
+  "name": "",
   "children": [
     {
       "name": "Capital Improvement",
@@ -30,7 +30,76 @@
       "size": 114664800
     },
     {
-      "name": "Parks & Recreation",
+      "name": "Police Services",
+      "children": [
+        {
+          "name": "Emergency Medical Response",
+          "size": 8910
+        },
+        {
+          "name": "Emergency Response",
+          "size": 35650
+        },
+        {
+          "name": "Fire Suppression/ Field Operations",
+          "size": 54650
+        },
+        {
+          "name": "Personnel Resource Mgmt.",
+          "size": 20790
+        },
+        {
+          "name": "Traffic Operations",
+          "size": 15698900
+        },
+        {
+          "name": "Special Operations",
+          "size": 11902620 
+        },
+        {
+          "name": "Vice/ Narcotics",
+          "size": 4349030
+        },
+        {
+          "name": "Patrol Area 1",
+          "size": 90038040
+        },
+        {
+          "name": "Police Training",
+          "size": 5185480
+        },
+        {
+          "name": "Communications",
+          "size": 8953270
+        },
+        {
+          "name": "Police Records",
+          "size": 3755030
+        },
+        {
+          "name": "Research Planning and Criminal Analysis",
+          "size": 1091870
+        },
+        {
+          "name": "Criminalistics",
+          "size": 3127940
+        },
+        {
+          "name": "Criminal Investigations",
+          "size": 23768510
+        },
+        {
+          "name": "Internal Affairs",
+          "size": 9046970
+        },
+        {
+          "name": "Agency-wide Administration",
+          "size": 40943140
+        }
+      ]
+    },
+    {
+      "name": "Parks and Recreation",
       "children": [
         {
           "name": "Cultural Arts",
