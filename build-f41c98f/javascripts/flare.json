@@ -1,0 +1,86 @@
+{
+  "name": "City Budget",
+  "children": [
+    {
+      "name": "Capital Improvement",
+      "size": 31647490
+    },
+    {
+      "name": "City Administrator",
+      "size": 11106070
+    },
+    {
+      "name": "City Attorney",
+      "size": 12463370
+    },
+    {
+      "name": "City Auditor",
+      "size": 1217900
+    },
+    {
+      "name": "City Clerk",
+      "size": 3238260
+    },
+    {
+      "name": "City Council",
+      "size": 3553070
+    },
+    {
+      "name": "Community & Economic Development",
+      "size": 114664800
+    },
+    {
+      "name": "Parks & Recreation",
+      "children": [
+        {
+          "name": "Cultural Arts",
+          "size": 1751360
+        },
+        {
+          "name": "Aquatics Boating",
+          "size": 749160
+        },
+        {
+          "name": "Citywide Tennis",
+          "size": 576930
+        },
+        {
+          "name": "Central Reservations",
+          "size": 1185750
+        },
+        {
+          "name": "Central Administration",
+          "size": 5362600
+        },
+        {
+          "name": "Contract Mgmt.",
+          "size": 872180
+        },
+        {
+          "name": "Recreation",
+          "size": 10242730
+        },
+        {
+          "name": "Competitive Sports",
+          "size": 700380
+        },
+        {
+          "name": "Aquatics",
+          "size": 1617600
+        },
+        {
+          "name": "Feather River Camp",
+          "size": 132370
+        },
+        {
+          "name": "Ball Fields",
+          "size": 452220
+        },
+        {
+          "name": "After School Sports",
+          "size": 558930
+        }
+      ]
+    }
+  ]
+}
