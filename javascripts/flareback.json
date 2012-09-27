@@ -1,0 +1,155 @@
+{
+  "name": "",
+  "children": [
+    {
+      "name": "Capital Improvement",
+      "size": 31647490
+    },
+    {
+      "name": "City Administrator",
+      "size": 11106070
+    },
+    {
+      "name": "City Attorney",
+      "size": 12463370
+    },
+    {
+      "name": "City Auditor",
+      "size": 1217900
+    },
+    {
+      "name": "City Clerk",
+      "size": 3238260
+    },
+    {
+      "name": "City Council",
+      "size": 3553070
+    },
+    {
+      "name": "Community & Economic Development",
+      "size": 114664800
+    },
+    {
+      "name": "Police Services",
+      "children": [
+        {
+          "name": "Emergency Medical Response",
+          "size": 8910
+        },
+        {
+          "name": "Emergency Response",
+          "size": 35650
+        },
+        {
+          "name": "Fire Suppression/ Field Operations",
+          "size": 54650
+        },
+        {
+          "name": "Personnel Resource Mgmt.",
+          "size": 20790
+        },
+        {
+          "name": "Traffic Operations",
+          "size": 15698900
+        },
+        {
+          "name": "Special Operations",
+          "size": 11902620 
+        },
+        {
+          "name": "Vice/ Narcotics",
+          "size": 4349030
+        },
+        {
+          "name": "Patrol Area 1",
+          "size": 90038040
+        },
+        {
+          "name": "Police Training",
+          "size": 5185480
+        },
+        {
+          "name": "Communications",
+          "size": 8953270
+        },
+        {
+          "name": "Police Records",
+          "size": 3755030
+        },
+        {
+          "name": "Research Planning and Criminal Analysis",
+          "size": 1091870
+        },
+        {
+          "name": "Criminalistics",
+          "size": 3127940
+        },
+        {
+          "name": "Criminal Investigations",
+          "size": 23768510
+        },
+        {
+          "name": "Internal Affairs",
+          "size": 9046970
+        },
+        {
+          "name": "Agency-wide Administration",
+          "size": 40943140
+        }
+      ]
+    },
+    {
+      "name": "Parks and Recreation",
+      "children": [
+        {
+          "name": "Cultural Arts",
+          "size": 1751360
+        },
+        {
+          "name": "Aquatics Boating",
+          "size": 749160
+        },
+        {
+          "name": "Citywide Tennis",
+          "size": 576930
+        },
+        {
+          "name": "Central Reservations",
+          "size": 1185750
+        },
+        {
+          "name": "Central Administration",
+          "size": 5362600
+        },
+        {
+          "name": "Contract Mgmt.",
+          "size": 872180
+        },
+        {
+          "name": "Recreation",
+          "size": 10242730
+        },
+        {
+          "name": "Competitive Sports",
+          "size": 700380
+        },
+        {
+          "name": "Aquatics",
+          "size": 1617600
+        },
+        {
+          "name": "Feather River Camp",
+          "size": 132370
+        },
+        {
+          "name": "Ball Fields",
+          "size": 452220
+        },
+        {
+          "name": "After School Sports",
+          "size": 558930
+        }
+      ]
+    }
+  ]
+}
