@@ -1,0 +1,27 @@
+:javascript
+  (function(){var d=document,s=d.createElement('script');s.setAttribute('src', 'https://test.hypothes.is/embed.js');d.body.appendChild(s)})()
+.page
+  %h3 <a href="#about">About the project</a>&nbsp;|&nbsp;<a href="#howto">How to use it</a>&nbsp;|&nbsp;<a href="#help">Help make it happen!</a>&nbsp;|&nbsp;<a href="http://eepurl.com/pZX35">Get email updates</a>&nbsp;|&nbsp;
+  %h2#about About the project:
+
+  %p Open Budget: Oakland is an interactive visualization and discussion forum that provides context and demonstrates interconnections within our city budget. 
+
+  %p By enabling a deeper understanding of Oakland's financial structure, this platform will allow citizens -- both inside and outside the city administration -- to explore city spending, share insights, and engage with our representatives.
+
+  %p Our app combines a detailed breakdown of the budget with explanation on where the money is being spent, and room for discussion. If a large sum of money is being spent on a program with an unfamiliar name, voters can read the description of that program and rest assured that the spending is wise and necessary. On the other hand, if the description for an expense is missing or incomplete, this may highlight inefficiencies in the system.
+
+  %p The component that allows citizens to interact with their budget is a collaboration with an open source project called <a href="hypothes.is">hypothes.is</a>. Hypothes.is is building an annotation system allowing for line by line commenting on all kinds of written content. We have adapted it for use with Oakland’s department, program, and project descriptions. If you have any questions about any part of the budget description, you can highlight the exact sentence or paragraph and ask away. City officials and budget experts can then reply to annotations or annotate other parts themselves to provide additional information.
+
+  %p As a proof of concept, we are using department and project descriptions from the City’s website and budget pdf, but we hope for increased collaboration from our government to provide citizens with more granular levels of detail.
+
+  %h2#howto How to use it:
+
+  %p The Oakland city budget is represented as a series of nested circles. At the top level are the different departments. As you click on them, you can zoom in to projects and divisions, then down to individual accounts. As you drill down, each allocation’s description becomes visible to the side. 
+
+  %p If you have a question or comment on any of this information, just highlight it and leave an annotation. Highlight a piece of text on this page and click the pen icon to try it now. 
+
+  %h2#help Help make it happen!
+
+  %p We meet every Wednesday at <a href="techlimnal.com">Techlimnal</a> in downtown Oakland at 7:30pm. The adress is 286 14th Street, between Harrison and Alice. Stop by to say hi!
+
+  %p This project was conceived at the 2012 Code for Oakland hackathon. At the hackathon, we built a ROR backend which you can look at here: <a href="https://github.com/sdhull/hack_the_budget">sdhull / hack_the_budget</a>. This backend takes .csv format data that can be exported from the budget spreadsheets and processes it into .json for the frontend visualization. Since the hackathon, we have made great strides on the frontend (this app), but could really use some help to complete the app. Contact jehan.tremback [at] gmail.com. Thanks!

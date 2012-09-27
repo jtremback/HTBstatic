@@ -1,14 +1,13 @@
 @import "compass";
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Ubuntu+Mono);
 
-
-a:link, a:visited {
-  color: #777;
-  text-decoration: none;
+a {
+  color: #555;
+  cursor: pointer;
 }
 
 a:hover {
-  color: #666;
+  color: #777;
 }
 
 body {
@@ -34,7 +33,7 @@ h3 {
     font-size: 21px;
     line-height: 25px;
     margin-top: 25px;
-    margin-bottom: 0px;
+    margin-bottom: 25px;
 }
 p, ul {
     margin-top: 0px;
@@ -44,8 +43,32 @@ small, aside {
     font-size: 12px;
 }
 
+#nav {
+  font-size: 2em;
+  position: fixed;
+  font-weight: bold;
+  left: 25px;
+  bottom: 10px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.page {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .title {
   margin-left: 25px;
+}
+
+.betabar {
+  font-family: mono;
+  border-bottom: 1px solid #777;
+  width: 95%;
+  padding-left: 1em;
 }
 
 .blurbs {
@@ -95,6 +118,7 @@ body > svg {
   position: fixed;
   z-index: -1;
   width: 100%;
+  top: 40px;
 }
 
 
